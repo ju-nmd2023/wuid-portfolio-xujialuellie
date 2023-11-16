@@ -31,6 +31,13 @@ h1 {
   padding: 20px;
 }
 
+#my_projects {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
 h3 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
@@ -77,7 +84,7 @@ p {
   margin-right: 20px;
 }
 
-#hello_word {
+.hello_word {
   text-align: center;
   font-size: 18px;
   margin-left: 50px;
@@ -159,6 +166,26 @@ message {
   grid-column: 1 / 12;
   grid-row: 4 / 8;
   border-radius: 5px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1em;
+  text-align: center;
+  font-size: 18px;
+}
+
+first_project,
+second_project,
+third_project,
+fourth_project,
+fifth_project,
+sixth_project {
+  background-color: #fbe1dc;
+  border-radius: 5px;
+  height: 10em;
+  border-width: 16em;
 }
 
 button {
