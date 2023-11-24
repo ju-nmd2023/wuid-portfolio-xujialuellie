@@ -7,14 +7,14 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.5rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: #e8ba40;
   color: #c7395f;
   text-align: center;
-  margin: 0px 20px;
-  padding: 20px;
-  border-radius: 20px;
+  margin: 0rem 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
 }
 
 .waving-hands {
@@ -38,31 +38,31 @@ h1 {
 #main_page {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  font-size: 35px;
-  padding: 50px;
+  font-size: 2.5rem;
+  padding: 3rem;
 }
 
 #contact_me {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  font-size: 40px;
-  padding: 20px;
+  font-size: 2.5rem;
+  padding: 1rem;
 }
 
 #my_projects {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  font-size: 40px;
-  padding: 20px;
+  font-size: 2.5rem;
+  padding: 1rem;
 }
 
 h3 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  font-size: 30px;
-  margin: 20px;
+  font-size: 2rem;
+  margin: 1rem;
   background-color: #e8ba40;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 h3:hover {
@@ -74,29 +74,29 @@ h3:hover {
 /* Keyframes for the font size changing animation */
 @keyframes font-changes {
   0% {
-    font-size: 30px;
+    font-size: 2rem;
   }
   50% {
-    font-size: 35px;
+    font-size: 2.1rem;
   }
   100% {
-    font-size: 30px;
+    font-size: 2rem;
   }
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 
 .content_list {
   display: flex;
   width: 100%;
   justify-content: center;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -105,8 +105,8 @@ p {
   grid-template-columns: repeat(6, 1fr);
   place-items: center;
   background-color: #de9dc2;
-  margin: 20px;
-  border-radius: 10px;
+  margin: 1rem;
+  border-radius: 0.5rem;
 }
 
 .content_list:hover {
@@ -116,9 +116,10 @@ p {
 
 #introduction {
   text-align: justify;
-  font-size: 18px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 1.2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 0.5rem;
 }
 
 .clickable-content:hover {
@@ -126,16 +127,17 @@ p {
 }
 
 .hello_word {
-  text-align: center;
-  font-size: 18px;
-  margin-left: 50px;
-  margin-right: 50px;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 0.5rem;
 }
 
 .pic_icon {
-  width: 30px;
+  width: 2rem;
   float: right;
-  margin: 0px 30px 0px 0px;
+  margin: 0rem 2rem 0rem 0rem;
 }
 
 .images {
@@ -155,7 +157,7 @@ p {
 
 .description {
   text-align: justify;
-  margin: 20px;
+  margin: 1rem;
 }
 
 #parent {
@@ -165,53 +167,53 @@ p {
   gap: 15px 10px;
   justify-items: stretch;
   align-items: stretch;
-  margin-left: 50px;
-  padding: 10px;
+  margin-left: 3rem;
+  padding: 0.5rem;
   justify-content: center;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-first_name {
+.first_name {
   background-color: #f9ec7e;
   grid-column: 1 / 6;
   grid-row: 1 / 1;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-second_name {
+.second_name {
   background-color: #f9ec7e;
   grid-column: 7 / 12;
   grid-row: 1 / 1;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-email {
+.emails {
   background-color: #f9ec7e;
   grid-column: 1 / 12;
   grid-row: 2 / 2;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-region_code {
+.region_code {
   background-color: #f9ec7e;
   grid-column: 1 / 4;
   grid-row: 3 / 3;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-phone_number {
+.phone_number {
   background-color: #f9ec7e;
   grid-column: 5 / 12;
   grid-row: 3 / 3;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-message {
+.messages {
   background-color: #f9ec7e;
   grid-column: 1 / 12;
   grid-row: 4 / 8;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 #container {
@@ -220,17 +222,17 @@ message {
   grid-template-rows: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1em;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
-first_project,
-second_project,
-third_project,
-fourth_project,
-fifth_project,
-sixth_project {
+#first_project,
+#second_project,
+#third_project,
+#fourth_project,
+#fifth_project,
+#sixth_project {
   background-color: #fbe1dc;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   height: 10em;
   border-width: 16em;
 }
@@ -239,16 +241,16 @@ button {
   background-color: #f9ec7e;
   grid-column: 5 / 8;
   grid-row: 8 / 9;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   border-color: #f9ec7e;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 footer {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2rem;
   background-color: #de9dc2;
-  border-radius: 10px;
+  border-radius: 1rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
