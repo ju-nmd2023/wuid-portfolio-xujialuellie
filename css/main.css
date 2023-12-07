@@ -160,7 +160,7 @@ p {
   margin: 1rem;
 }
 
-#parent {
+#contact-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(9, 2fr);
@@ -214,6 +214,19 @@ p {
   grid-column: 1 / 12;
   grid-row: 4 / 8;
   border-radius: 0.5rem;
+}
+
+input,
+textarea {
+  border-radius: 0.5rem;
+  border-color: #f9ec7e;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #c7395f;
 }
 
 #container {
