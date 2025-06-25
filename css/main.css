@@ -144,6 +144,10 @@ p {
   margin: 0rem 2rem 0rem 0rem;
 }
 
+.uni_location {
+  float: right;
+}
+
 .images {
   width: 30%;
   transition: transform 0.5s ease;
